@@ -1,0 +1,131 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+/*font-family: 'Ubuntu', sans-serif;*/
+}
+header nav ul li{ 
+  display: inline;
+  text-decoration: none;
+  margin-left: 16px;
+  }
+  header nav li a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+  header nav li a:hover{
+    background-color: #7a7369a3;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  #sobre-mim .container img{
+    width:480px;
+    height: 480px;
+    object-fit: contain;
+    padding-left: 50px;
+  }
+  header{
+    background-color: #b5a99965;
+    padding: 16PX;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  header .container, #sobre-mim .container, #curriculo .container, #projetos .container, .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  #sobre-mim .container h2{
+    font-size: 3em;
+  }
+  #sobre-mim .contain h2,#sobre-mim .contain h3, #sobre-mim .contain p {
+  width: 60%;
+  padding-left: 60px;
+  
+  }
+  .container {
+    padding: 16px 16px;
+    width: 95%;
+    height: 100%;
+  }
+  .container p, h3{
+    line-height: 2em;
+    text-align: justify;
+    list-style: circle;
+    font-family: 'Ubuntu', sans-serif;
+      }
+  .container  li{
+    text-align: justify;
+    list-style: circle;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5em;
+  }
+
+  .container h3{
+    padding: 30px auto;
+    font-size: 1.1em;
+    font-weight:bold ;
+  }
+  #curriculo .container h1{margin-top: 0;
+
+  }
+  .container h1, #projetos h1{
+    font-size: 2em;
+    padding: 16px 16px;}
+
+    form{
+      background-color: #b5a99965;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      
+    }
+    hr{
+      margin: 50px 0;
+    }
+    form input, form label, button, textarea{
+      display: block;
+      width: 350px;
+      margin-bottom: 5px;
+      padding: 8px;
+      border-radius: 6px;
+      border: none;
+    }
+    input:focus, textarea:focus{outline-color: #7a7369a3;}
+    
+    form textarea {
+      height: 180px;
+      resize: none;
+      font-family: 'Ubuntu', sans-serif;
+    }
+    form button:hover{
+      text-decoration: underline;
+      background-color: #7a7369a3;
+    }
+    form button{
+      cursor: pointer;
+    }
+  
+  footer .container img{
+      width: 24px;
+      height: 24px;
+      margin: 0;
+    }
+    footer{
+      background-color: #b5a99965;
+      
+    }
+      footer .container a{
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+      color:  #403b35d6;
+    }
+    footer .container a:hover{
+      text-decoration: underline;
+  
+    }
+    
